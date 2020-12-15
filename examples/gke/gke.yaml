@@ -37,7 +37,7 @@ spec:
       clientCertificateConfig:
         issueClientCertificate: false
     monitoringService: "monitoring.googleapis.com/kubernetes"
-    network: "gke-test" 
+    network: "default" 
     networkPolicy:
       enabled: true
       provider: CALICO
